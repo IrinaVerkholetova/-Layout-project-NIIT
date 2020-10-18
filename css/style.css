@@ -232,9 +232,12 @@ p{
         text-decoration: none;
     }
 
-    .work_wrap a:hover{
-        background: #645c4d;
-        transform: scale(1.05);
+    .transform{
+        transition: all .3s linear;
+    }
+    .transform:hover{
+        transform: scale(1.2);
+        z-index: 1;
     }
 
     .menunav a{
